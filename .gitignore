@@ -1,7 +1,6 @@
 .DS_Store
 node_modules
 /dist
-/docs
 *.local
 .env
 .env.local
@@ -12,4 +11,5 @@ yarn-error.log*
 .vscode/*
 !.vscode/settings.json
 .idea
+
 
