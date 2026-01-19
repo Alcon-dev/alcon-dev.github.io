@@ -5,7 +5,7 @@
         <section :class="$style.header">
           <div :class="$style.avatar">
             <div :class="$style.avatarImg">
-              <img src="@/assets/img/avatar.jpg" alt="" />
+              <img src="/img/avatar.png" alt="" />
             </div>
           </div>
           <h1 :class="$style.name">Alina Ishchenko</h1>
@@ -28,13 +28,13 @@
             <div :class="$style.contactIcon">
               <img src="@/assets/img/icons/email.svg" alt="Email" />
             </div>
-            <a href="">aloha.nearby@gmail.com</a>
+            <a href="mailto:aloha.nearby@gmail.com">aloha.nearby@gmail.com</a>
           </div>
           <div :class="$style.contact">
             <div :class="$style.contactIcon">
               <img src="@/assets/img/icons/telegram.svg" alt="Telegram" />
             </div>
-            <a href="" target="_blank">Telegram</a>
+            <a href="https://t.me/alyaishchenko" target="_blank">Telegram</a>
           </div>
           <div :class="$style.contact">
             <div :class="$style.contactIcon">
@@ -46,7 +46,9 @@
             <div :class="$style.contactIcon">
               <img src="@/assets/img/icons/linkedin.svg" alt="LinkedIn" />
             </div>
-            <a href="" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/alina-ishchenko-22a236330/" target="_blank"
+              >LinkedIn</a
+            >
           </div>
         </section>
       </div>
@@ -101,7 +103,7 @@
                     <p :class="$style.position">Accountant</p>
                   </div>
                 </div>
-                <span :class="$style.date">2022 — 2024</span>
+                <span :class="$style.date">2022 - 2024</span>
               </div>
               <ul :class="$style.description">
                 <li>Preparation of financial and management reports</li>
@@ -149,9 +151,8 @@
         <section :class="$style.block">
           <h2 :class="$style.blockTitle">Languages</h2>
           <ul :class="$style.languages">
-            <li>English — B1</li>
-            <li>Russian — C2</li>
-            <li>Belarusian — Native</li>
+            <li>English - B1</li>
+            <li>Russian - C2</li>
           </ul>
         </section>
         <section :class="$style.block">
@@ -167,7 +168,7 @@
                   <p :class="$style.position">Accounting and Economics Faculty</p>
                 </div>
               </div>
-              <span :class="$style.date">2018 — 2022</span>
+              <span :class="$style.date">2018 - 2022</span>
             </div>
           </div>
         </section>
@@ -233,6 +234,7 @@ export default {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 35%;
     border-radius: 50%;
   }
 }
